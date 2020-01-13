@@ -1,4 +1,4 @@
-const socket = io('https://chatvideo102ok.herokuapp.com/');
+const socket = io('http://chatvideo102ok.herokuapp.com');
 
 $('#chat').hide();
 
