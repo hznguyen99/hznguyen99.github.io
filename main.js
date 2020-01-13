@@ -1,4 +1,4 @@
-const socket = io('https://chatvideook.herokuapp.com/');
+const socket = io('https://chatvideo102ok.herokuapp.com/');
 
 $('#chat').hide();
 
@@ -32,7 +32,7 @@ function playStream(idVideoTag, stream) {
 }
 
 //openStream().then(stream => playStream('localStream', stream));
-const peer = new Peer({host: 'chatvideook.herokuapp.com', secure: true, port: 443});
+const peer = new Peer({host: 'chatvideo102ok.herokuapp.com', secure: true, port: 443});
 peer.on('open',id => {
     $('#my-peer').append(id);
     $('#btnSignUp').click(() => {
